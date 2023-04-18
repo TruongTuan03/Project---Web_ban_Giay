@@ -1,6 +1,7 @@
 #wraaper{
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #logo{
     display: flex;
@@ -26,53 +27,17 @@
 }
 #center{
     display: flex;
-    background-color: red;
+    flex-direction: column;
     height: 1000px;
 }
-#south{
+#products{
     display: flex;
-    flex-direction: column;
-    background-color: black;
-    height: 500px;
-    margin-top: 50px;
-}
-#top_south{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-top: 50px;
-    margin-right: 150px;
+}
+#products_1{
+    display: flex;
+    flex-direction: column;
 
 }
-#south_gioithieu{
-    display: flex;
-    flex-direction: column;
-  
-}
-#south_diachi{
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-}
-#south_menu{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-}
-#south_menu2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-#south_mxh{
-    display: flex;
-    flex-direction: column;
-     margin-bottom: 90px;
-}
-#items{
-    display: flex;
-    margin-top: 30px;
-}
-
-
